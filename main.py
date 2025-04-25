@@ -346,7 +346,7 @@ def main():
                 
                 # Generate report button
                 if st.button("Generate Radiology Report", type="primary"):
-                    with st.spinner("Analyzing image with AI... This may take 20-30 seconds"):
+                    with st.spinner("Analyzing image... This may take 20-30 seconds"):
                         # Prepare patient info
                         patient_info = {
                             "Name": patient_name,
